@@ -14,8 +14,5 @@ Screenshots:
 ![Screenshot](screen.png?raw=true "Clear")
 ![Screenshot](screen_1.png?raw=true "Rofi")
 ![Screenshot](screen_2.png?raw=true "Rofi")
-![Screenshot](screen_2.png?raw=true "Rofi")
-![Screenshot](screen_2.png?raw=true "Rofi")
-![Screenshot](screen_2.png?raw=true "Rofi")
 
 Just in case you want to see some workflow click [here](https://youtu.be/v4hRmKUWHu8).
