@@ -1,0 +1,17 @@
+conky.config = {
+    out_to_x = false,
+    out_to_console = true,
+    update_interval = 1,
+}
+
+conky.text = [[
+%{l}\
+%{B\#d12f2c}%{F\#141c21}  %{B-}%{F-}\
+%{B\#263640} ${if_running audacious}${audacious_title 40}${else}\
+${if_running mpd}${mpd_smart 40}${else}Music Is Not Playing${endif}${endif} %{B-}\
+%{c}\
+${time %a %-d %b at %H:%M}\
+%{r}\
+%{B\#2587cc}%{F\#141c21}  ${if_pa_sink_muted}Muted${else}\
+${pa_sink_volume}%${endif} %{B-}%{F-}\
+]]

@@ -1,0 +1,10 @@
+#!/bin/dash
+xrdb -merge .Xresources
+xautolock -time 10 -locker 'slock' &
+setxkbmap -layout "us,lt,ru" -option "grp:ctrl_shift_toggle"
+hsetroot -center ~/.wallpaper.jpg
+xset +fp ~/.fonts/misc/
+xsettingsd &
+conky | lemonbar -g x28 \
+-f -*-rissole-* -f -*-waffle-* \
+-B "#141c21" -F "#93a1a1" &
